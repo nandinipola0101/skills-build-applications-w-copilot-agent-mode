@@ -1,0 +1,147 @@
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  color: #2d2d2d;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #3a3f58;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link, a, .navbar-brand, .nav-link {
+  color: #1a73e8 !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover, a:hover, .navbar-brand:hover, .nav-link:hover {
+  color: #0d47a1 !important;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a3f58 0%, #1a73e8 100%) !important;
+  box-shadow: 0 2px 8px rgba(26, 115, 232, 0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.nav-link.active, .nav-link:focus {
+  color: #ffd600 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1a237e;
+  font-weight: 700;
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(26, 115, 232, 0.04);
+}
+.table th {
+  background: #e3f2fd !important;
+  color: #1a237e;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f8ff;
+}
+.table-bordered {
+  border: 1px solid #90caf9;
+}
+
+.btn, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary {
+  border-radius: 24px;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  margin: 0.25rem;
+  box-shadow: 0 2px 4px rgba(26, 115, 232, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #1a73e8 0%, #3a3f58 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: #0d47a1;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43a047 0%, #1de9b6 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #039be5 0%, #b3e5fc 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffd600 0%, #ffb300 100%);
+  border: none;
+  color: #1a237e;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #757575 0%, #bdbdbd 100%);
+  border: none;
+}
+
+.form-control, .form-select {
+  border-radius: 12px;
+  border: 1px solid #90caf9;
+}
+
+.modal-content {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(26, 115, 232, 0.12);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
